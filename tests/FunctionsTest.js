@@ -117,7 +117,7 @@ describe("Check which of the argument passed is of type NaN  - doesFriendExist",
   it("Return 'NaN' for the arguments('NaN',NaN)", function() {
     let actualResult = doesFriendExist("NaN", NaN);
 
-    let expectedResult = "NaN";
+    let expectedResult = NaN;
 
     expect(actualResult).toEqual(expectedResult);
   });
